@@ -1,7 +1,7 @@
 groq==0.9.0
 instaloader==4.12
 ipython==8.20.0
-matplotlib==3.8.0
+matplotlib
 numpy==2.0.0
 opencv_python==4.9.0.80
 pandas==2.2.2
