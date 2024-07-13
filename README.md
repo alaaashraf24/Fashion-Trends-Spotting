@@ -1,0 +1,1 @@
+# Fashion-Trends-Spotting
