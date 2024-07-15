@@ -937,7 +937,7 @@ elif st.session_state.step == 8:
     # Add sliders for likes_th, comments_th, and sentiment_th
     likes_th = st.slider("Likes Threshold", min_value=0.0, max_value=1.0, value=0.8, step=0.01)
     comments_th = st.slider("Comments Threshold", min_value=0.0, max_value=1.0, value=0.2, step=0.01)
-    sentiment_th = st.slider("Sentiment Threshold", min_value=0.0, max_value=1.0, value=0.1, step=0.01)
+    sentiment_th = st.slider("Sentiment Threshold", min_value=-1.0, max_value=1.0, value=0.1, step=0.01)
 
     # Add Predict button
     if st.button("Predict"):
